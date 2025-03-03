@@ -1,0 +1,22 @@
+<%= form_with(model: [@post, comment]) do |form| %>
+  <% if comment.errors.any? %>
+    <div role="alert">
+      <h2><%= pluralize(comment.errors.count, "error") %> prohibited this comment from being submitted:</h2>
+
+      <ul>
+        <% comment.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :body, class: "sr-only" %>
+    <%= form.textarea :body, placeholder: "What are you thinking?", class: "w-2/3", rows: 3 %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

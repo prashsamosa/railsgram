@@ -1,0 +1,8 @@
+<% content_for :title, @user.screen_name %>
+
+<h1><%= content_for(:title) %></h1>
+<% if @user == Current.user %>
+  <%= link_to "→ Edit profile", edit_user_path(@user), class: "hlink" %>
+<% end %>
+
+<%= render @user %>

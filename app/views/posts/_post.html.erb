@@ -1,0 +1,13 @@
+<%
+  if controller_name == "posts" && action_name == "show"
+    hlevel = :h1
+    content = post.title
+  else
+    hlevel = :h2
+    content = link_to post.title, post
+  end
+%>
+
+<%= tag.send(hlevel, content, class: "font-semibold") %>
+
+<%= render "posts/metadata", post: post %>
