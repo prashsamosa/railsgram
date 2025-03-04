@@ -35,6 +35,3 @@ Ensure you have the following installed on your system:
    ```sh
    bin/dev
    ```
-
-Your Railsgram app should now be running at **http://localhost:3000**.
-
