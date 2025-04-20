@@ -35,3 +35,24 @@ Ensure you have the following installed on your system:
    ```sh
    bin/dev
    ```
+
+
+## Application Screenshots
+
+### SignUP
+<img src="/readme/signup.png" alt="SignUP" style="max-width: 100%; height: auto;">
+
+### edit-mail
+<img src="/readme/edit-mail.png" alt="edit-mail" style="max-width: 100%; height: auto;">
+
+### update-password
+<img src="/readme/update-password.png" alt="update-password" style="max-width: 100%; height: auto;">
+
+### edit post
+<img src="/readme/edit-post.png" alt="edit-post" style="max-width: 100%; height: auto;">
+
+### comments
+<img src="/readme/comment.png" alt="comment" style="max-width: 100%; height: auto;">
+
+### search
+<img src="/readme/sitesearch.png" alt="search" style="max-width: 100%; height: auto;">
